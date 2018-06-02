@@ -2,20 +2,31 @@
 
 > A lite alternative to [naofo.de](https://github.com/naofode/naofo.de)
 
+## Server dependencies
+* PHP
+
+## requirements
+* Google ReCaptcha v2
+* Google Firebase
+
+## Build dependencies
+* node.js
+* npm or yarn
+
 ## Build Setup
 
+1. Rename `src/config/params.js.example` to `src/config/params.js`
+
+2. Edit the `src/config/params.js` with the requested data
+
+3. Build
+
 ``` bash
-# install dependencies
+# Install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
+# Build for production with minification
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+The result will be in the `dist/` folder, take the content of this folder and upload to php server.
