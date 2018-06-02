@@ -1,6 +1,6 @@
-# naofode-serverless
+# naofo.de-lite
 
-> A url shortener which creates a print. for denouncing despicable content without giving it views or pagerank
+> A lite alternative to [naofo.de](https://github.com/naofode/naofo.de)
 
 ## Build Setup
 
