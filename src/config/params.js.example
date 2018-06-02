@@ -1,0 +1,15 @@
+export default {
+    site_name: 'naofo.de',
+    php_url: 'http://localhost:8080', // Url de onde o arquivo save.php está
+    recaptcha: {
+        site_key: '' // Site key fornecido pelo google ao criar o captcha
+    },
+    firebase: { // Informações obtidas durante a criação do projeto no firebase
+        apiKey: "",
+        authDomain: "",
+        databaseURL: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: ""
+    }
+}
